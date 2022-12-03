@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBTOON</title>
+    <link rel="stylesheet" href="./index - Copy.css">
+    <link rel="icon" href="./image/icon.jpg">
+<body>
+    <header class="header_main">
+        <a class="header_icon">
+            <img src="./image/icon.jpg">
+        </a>
+        <ul>
+            <li class="dropdown">
+                <button class="dropbtn">XẾP HẠNG
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">TÁC GIẢ CỦA TUẦN</a>
+                  <a href="#">TÁC PHẨM CỦA TUẦN</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn">TRUYỆN MỚI NHẤT 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn"><a href="./goods.html">GOODS</a>
+                  <i class="fa fa-caret-down"></i>
+                </button>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn">MIỄN PHÍ 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn">DANH SÁCH XUẤT BẢN  
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">DANH SÁCH</a>
+                  <a href="#">BEST SELLER</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn">MUA COIN 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn"> ĐĂNG KÝ TÀI KHOẢN 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="./signup.html">ĐĂNG KÝ</a>
+                  <a href="./signup.html">ĐĂNG NHẬP</a>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <div class="banner">
+        <img id="pic" src="./banner/banner_1.jpg">
+        <br>
+        <ul class="banner_list">
+        <li>
+            <button onclick="turnBanner_1()"></button>
+        </li>
+        <li>
+            <button onclick="turnBanner_2()"></button>
+        </li>
+        <li>
+            <button onclick="turnBanner_3()"></button>
+        </li>
+        <li>
+            <button onclick="turnBanner_4()"></button>
+        </li>
+        <li>
+            <button onclick="turnBanner_5()"></button>
+        </li>
+        <li>
+            <button onclick="turnBanner_6()"></button>
+        </li>
+        <li>
+            <button onclick="turnBanner_7()"></button>
+        </li>
+        </ul>
+        <br>
+    </div>
+    <!-- <div class="buy_coin">
+        <section>
+            <ul>
+                <li>
+                    <a></a>
+                    <img class="coin_1" src="./coin/coin_1.jpg">
+                </li>
+                <li>
+                    <a></a>
+                    <img class="coin_2" src="./coin/coin_2.jpg">
+                </li>
+                <li>
+                    <a></a>
+                    <img class="coin_3"src="./coin/coin_3.jpg">
+                </li>
+            </ul>
+        </section>
+    </div> -->
+    <div class="comic">
+        <section class="title-comics">
+            <div class="title-comics-label">
+                <!-- <h1>TRUYÊN TRAH CỦA WEBTOON</h1> -->
+                <!-- <p><a>XEM THÊM</a></p> -->
+            </div>
+            <div class="comics-wrapper">
+                <ul class="list-banner">
+                    <li>
+                        <a>
+                            <img src="./comics/img_1.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_2.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_3.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_4.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_5.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_6.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_7.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_8.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_9.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_10.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_11.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_12.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_13.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_14.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_15.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_16.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_17.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_18.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_19.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_20.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_21.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_22.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_23.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_24.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_25.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_26.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_27.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_28.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_29.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_30.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_31.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_32.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_33.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_34.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_35.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_36.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_37.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_38.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_39.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_40.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_41.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_42.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_43.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_44.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_45.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_46.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_47.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_48.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_49.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_50.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_51.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_52.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_53.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_54.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_55.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_56.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_57.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_58.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_59.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_60.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_61.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_62.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_63.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_64.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_65.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_67.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_68.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_69.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_70.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./comics/img_71.jpg">
+                            <div class="date"></div>
+                            <span>NEW</span>
+                            <div>
+                                <br>
+                                <div class="fw-normal"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <div>
+            <div class="nxb">
+                <ul class="list_nxb">
+                    <li class="name_nxb">
+                        <img class="skybooks" src="./image/img_nxb.jpg">
+                        <p>SkyBooks</p>
+                    </li>
+                    <li class="name_nxb">
+                        <img class="daisy" src="./image/img_nxb2.jpg">
+                        <p>Daisy.Comics</p>
+                    </li>
+                    <li class="name_nxb">
+                        <img class="uranix" src="./image/img_nxb3.jpg">
+                        <p>Uranix</p>
+                    </li>
+                    <li class="name_nxb">
+                        <img class="hcomic" src="./image/img_nxb4.jpg">
+                        <p>Hcomic</p>
+                    </li>
+                    <li class="name_nxb">
+                        <img class="ipm" src="./image/img_nxb5.jpg">
+                        <p>IPM</p>
+                    </li>
+                    <li class="name_nxb">
+                        <img class="owl" src="./image/img_nxb6.png">
+                        <p>Owlbooks</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

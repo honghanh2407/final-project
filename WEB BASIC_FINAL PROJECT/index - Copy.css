@@ -1,0 +1,214 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+.header_main {
+    position: absolute;
+	width: 100%;
+    top: 0;
+}
+ul {
+    list-style-type: none;
+}
+@font-face {
+    src: url(Font_family/BungeeInline-Regular.ttf);
+    font-family: HeaderFont;
+}
+.header_icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -72.5px;
+    margin-left: 10px;
+}
+body header {
+    background-color: rgb(0,212,101);
+    padding-top: 0px;
+    padding-bottom: 30.5px;
+}
+header a {
+    text-decoration: none;
+    font-family: HeaderFont;
+    font-size: 17.5px;
+    color: rgba(255, 255, 255, 0.962);
+}
+header li {
+    display:inline;
+    margin-left: 35px;
+    margin-right: 10px;
+}
+.list-banner img {
+    width: 175px;
+    height: 265px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.list-banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+footer {
+    display:flex;
+    background-color: rgb(51, 137, 74);
+    padding-top: 17px;
+    padding-bottom: 10px;
+} 
+.nxb ul li img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.list_nxb {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.list_nxb li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.comic{
+    margin-top: 2.5%;
+    margin-right: 40px;
+}
+.list_nxb {
+    margin-right: -1350px;
+    margin-top: -50px;
+} 
+.banner img {
+    width: 1250px;
+    height: 580px;
+    margin-left: 8%;
+    margin-top: 10.5%;
+    margin-bottom: -31.25%;
+}
+.banner button {
+    transform:translate(965%,4000%);
+    align-items: center;
+    background-color: rgb(185, 185, 185);
+    border: 2px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    height: 10px;
+    width: 10px;
+    justify-content: center;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.banner button:active {
+    background-color: rgb(255,255,255);
+    outline: 0;
+}
+.banner button:hover {
+    outline: 0;
+}
+.banner_list {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.thumbnail_img img {
+    width: 115px;
+    height: 165px;
+}
+.thumbnail_img {
+    color: black;
+    border: 3.5px solid rgb(4, 237, 4);
+    background-color:rgb(207, 207, 207);
+    padding-top: -0.5px;
+    width: 535px;
+    height: 165px;
+    margin-left:-1.7%;
+}
+.rank_list {
+    margin-top: -11.5%;
+}
+.coin_1 img {
+    width: 550px;
+    height: 200px;
+    transform:translate(173.85%,-285%);
+    border-radius: 25%;
+} 
+body {
+    background-color: rgb(255,255,255);
+}
+.coin_2 img {
+    width: 250px;
+    height: 200px;
+    transform:translate(385%,-225%);
+    border-radius: 10%;
+} 
+.coin_3 img {
+    width: 250px;
+    height: 200px;
+    transform:translate(400%,-325%);
+    border-radius: 10%;
+} 
+.banner {
+    padding-bottom: 415px;
+    background-color: black;
+}
+.name_nxb img {
+    width: 35px;
+    height: 35px;
+    margin-top: 50px;
+    align-items: center;
+}
+.nxb {
+    margin-top: 5px;
+    margin-left: 57.5px;
+}
+@font-face {
+src:url(Font_family/LondrinaShadow-Regular.ttf);
+font-family: NXBFont;
+}.name_nxb p {
+    font-family: NXBFont;
+    color:aliceblue;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 18px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 10px 10px;
+    background-color: inherit;
+    font-family: HeaderFont;
+    margin: 0;
+    margin-top: -15px;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(9, 255, 0);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
